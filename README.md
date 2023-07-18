@@ -39,9 +39,9 @@ Users should be able to:
 
 
 ### Links
-<!-- 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+
+- Solution URL: [rock-paper-scissors-master](https://github.com/doaaalsheikh/rock-paper-scissors-master)
+- Live Site URL: [rock-paper-scissors-master](https://doaaalsheikh.github.io/rock-paper-scissors-master/)
 
 ### Built with
 
