@@ -56,8 +56,8 @@ scissors.addEventListener("click", function () {
 
 // Add EventListener To Rules Button
 rulesBtn.addEventListener("click", function () {
-	rulesModal.style.zIndex = "12";
-	modalBack.style.zIndex = "11";
+	rulesModal.style.zIndex = "100";
+	modalBack.style.zIndex = "99";
 });
 
 // Add EventListener To Paly Again Button
