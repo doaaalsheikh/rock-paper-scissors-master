@@ -10,9 +10,9 @@ let scissors = document.getElementById("scissors");
 let playerChoiceIcon = document.querySelector("#player-choice img");
 let computerChoiceIcon = document.querySelector("#computer-choice img");
 
-let rockIcon = "/images/icon-rock.svg";
-let paperIcon = "/images/icon-paper.svg";
-let scissorsIcon = "/images/icon-scissors.svg";
+let rockIcon = "./images/icon-rock.svg";
+let paperIcon = "./images/icon-paper.svg";
+let scissorsIcon = "./images/icon-scissors.svg";
 
 let result = document.querySelector(".result span:first-of-type");
 let playBtn = document.getElementById("play-again");
