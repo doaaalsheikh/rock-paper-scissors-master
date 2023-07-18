@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link rel="stylesheet" href="styles/master.css" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Rock, Paper, Scissors</title>
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<div class="content">
+				<div class="modal-back" id="modal-back"></div>
+				<section class="rules" id="rules">
+					<div class="header">
+						<h2>Rules</h2>
+						<img id="close-modal" src="/images/icon-close.svg" alt="" />
+					</div>
+					<img src="/images/image-rules.svg" alt="" />
+				</section>
+				<header>
+					<img src="/images/logo.svg" alt="" />
+					<div>
+						<span>Score</span>
+						<span class="score" id="score"></span>
+					</div>
+				</header>
+				<section class="game">
+					<img class="bg" src="images/bg-triangle.svg" alt="" />
+					<div class="choice rock" id="rock">
+						<img src="images/icon-rock.svg" alt="" />
+					</div>
+					<div class="choice scissors" id="scissors">
+						<img src="images/icon-scissors.svg" alt="" />
+					</div>
+					<div class="choice paper" id="paper">
+						<img src="images/icon-paper.svg" alt="" />
+					</div>
+					<!-- Score Rules You Picked The House Picked You Win You Lose Play Again -->
+				</section>
+				<section class="game-playing hidden">
+					<div class="choices">
+						<div>
+							<span>You Picked</span>
+							<div>
+								<div class="choice player-choice scissors" id="player-choice">
+									<img src="" alt="" />
+								</div>
+							</div>
+						</div>
+						<div>
+							<span>The House Picked</span>
+							<div>
+								<div class="choice computer-choice" id="computer-choice">
+									<img src="" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="result hidden">
+						<span></span>
+						<span id="play-again">play again</span>
+					</div>
+				</section>
+
+				<span id="rules-btn">rules</span>
+			</div>
+		</main>
+		<script src="scripts/main.js"></script>
+		<!-- <div class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by <a href="#">Doaa Alsheikh</a>.
+		</div> -->
+	</body>
+</html>
